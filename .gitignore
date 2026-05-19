@@ -1,0 +1,168 @@
+# ====================================
+# Dependências
+# ====================================
+node_modules/
+/.pnp
+.pnp.js
+.pnp.mjs
+.yarn/install-state.gz
+
+# ====================================
+# Build e produção
+# ====================================
+/dist
+/build
+/build-ssr
+/*.local
+
+# ====================================
+# Arquivos de cache
+# ====================================
+/.vite
+/.vite-inspect
+/.cache
+/.parcel-cache
+/.next
+/.nuxt
+/.output
+/.vercel
+/.netlify
+
+# ====================================
+# Arquivos de ambiente e variáveis
+# ====================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ====================================
+# Logs
+# ====================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+logs/
+
+# ====================================
+# Editores e IDEs
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.bsconfig.json
+.ntvs_analysis.dat
+*.ntvs*
+*.njsproj
+*.sln
+*.suo
+.vscode-test/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# ====================================
+# Arquivos de sistema operacional
+# ====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ====================================
+# Testes e cobertura
+# ====================================
+/coverage
+/.nyc_output
+/.vitest
+*.lcov
+.nyc_output/
+
+# ====================================
+# TypeScript
+# ====================================
+*.tsbuildinfo
+.tsbuildinfo
+.tscache
+
+# ====================================
+# Arquivos de diagnóstico
+# ====================================
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+
+# ====================================
+# Arquivos de configuração pessoal
+# ====================================
+.env*
+!.env.example
+!.env.sample
+
+# ====================================
+# Arquivos temporários
+# ====================================
+*.tmp
+*.temp
+*.cache
+.temp/
+.tmp/
+
+# ====================================
+# Yarn específico
+# ====================================
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.yarnrc.yml.local
+.yarnrc.local
+
+# ====================================
+# Arquivos de bundle/análise
+# ====================================
+stats.html
+stats.json
+webpack-stats.json
+vite-stats.html
+
+# ====================================
+# Arquivos de backup
+# ====================================
+*.bak
+*.backup
+*.old
+*.orig
+
+# ====================================
+# Certificados SSL
+# ====================================
+*.pem
+*.crt
+*.key
+
+# ====================================
+# Arquivos específicos do projeto
+# ====================================
+.DS_Store
+*.log
+*.sql
+*.sqlite
+dist-ssr
+*.local
